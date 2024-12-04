@@ -12,5 +12,6 @@ function main() {
     routes: AppRoutes.routes,
     publicPath: envs.PUBLIC_PATH,
   });
+
   server.start();
 }
